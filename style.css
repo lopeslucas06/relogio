@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.relogio-area {
+   position: absolute;
+   top: 50%;
+   transform: translate(0%, -50%);
+    width: 600px;
+    height: 200px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+#hr,
+#mn,
+#sc  {
+    width: 120px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(78, 78, 78);
+    font-size: 95px;
+    padding: 50px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.144); 
+    
+}
+.ponteiro {
+    font-size: 90px;
+    margin: 0px 10px;
+    color: rgb(78, 78, 78);
+    transition: all 1s;
+}
